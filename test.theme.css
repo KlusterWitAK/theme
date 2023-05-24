@@ -1,0 +1,381 @@
+/**
+* @name Neon's Favorite
+* @author Neon Nebula#6467
+* @version 1.0.0
+* @description Neon's Favorite themes
+* @source https://github.com
+*/
+
+
+/* Start Imports */
+@import url("https://joshuah345.github.io/Discord-Stuff/Themes/CustomStatusColors/CustomStatusColors.css");
+@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
+@import url(https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/DiscordLinks.css");
+
+/* End Imports */
+
+/* copied */
+
+@import url("https://joshuah345.github.io/Discord-Stuff/Themes/CustomStatusColors/CustomStatusColors.css");
+
+@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/boostedFavorites.css);
+
+@import url(https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css);
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+
+
+/* end */
+
+
+/* Dm custom logo */
+.homeIcon-r0w4ny path {
+    fill: transparent;
+}
+.homeIcon-r0w4ny {
+    background: url("https://cdn.discordapp.com/attachments/999156989038964770/1089773446948458688/copy-face.jpg");
+    background-size: cover;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+:root {
+    --favorites-name: 'My Favorites';
+    --favorites-guild-icon: url(https://cdn.discordapp.com/attachments/999156989038964770/1089773446948458688/copy-face.jpg);
+    --favorites-banner: url(https://cdn.discordapp.com/attachments/999156989038964770/1089773446948458688/copy-face.jpg);
+
+    /* category icons */
+    /* Duplicate each group for additional categories (Up to 10), then replace both numbers. */
+    --category-1: '';
+    --c1: url(https://cdn.discordapp.com/attachments/999156989038964770/1089773446948458688/copy-face.jpg);
+    
+    --category-2: '';
+    --c2: url(https://cdn.discordapp.com/attachments/999156989038964770/1089773446948458688/copy-face.jpg);
+}
+
+/* Role Colour Indicator */
+.username-h_Y3Us[style]::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: var(--background-secondary);
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 5px;
+    transform: translateY(2px);
+}
+
+.username-h_Y3Us[style]::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: currentColor;
+    border-radius: 20px;
+    margin: 3px;
+    display: inline-block;
+    margin-right: 5px;
+    transform: translateY(2px);
+    position: absolute;
+    inset: 0;
+}
+
+/* Username Background(Fixes New Badge Issue) */
+.headerText-2z4IhQ > [role*="button"]:not(.username-h_Y3Us)::before {
+    content: '';
+    width: calc(18px + 7px);
+    background-color: currentColor;
+    opacity: 0.3;
+    margin-left: 2px;
+}
+
+/* CustomStatusColors */
+:root.theme-dark {
+    --status-online-color: #13461a;
+    --status-dnd-color: #218fd8;
+    --status-idle-color: #b7c226;
+    --status-offline-color: #000000;
+    --status-streaming-color: #593695;
+}
+
+:root.theme-light {
+    --status-online-color: #13461a;
+    --status-dnd-color: #218fd8;
+    --status-idle-color: #b7c226;
+    --status-offline-color: #000000;
+    --status-streaming-color: #593695;
+}
+
+/* Coloured Folder Icons */
+.closedFolderIconWrapper-3tRb2d {
+    display: none;
+}
+.folderIconWrapper-1oRIZr:not([style=""])::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: inherit;
+    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    transform: scale(1.3335);
+    filter: brightness(1.5) saturate(1.5);
+}
+
+/* Rounded User Panel */
+.panels-3wFtMD {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border: 1px solid var(--background-modifier-accent);
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+  }
+  
+  .theme-dark .container-YkUktl,
+  .container-1zzFcN,
+  .theme-dark .panel-2ZFCRb {
+    background-color: transparent !important;
+  }
+  
+  .panels-3wFtMD .container-YkUktl .flex-2S1XBF {
+    margin-left: -10px;
+  }
+
+/* RolesBackground */
+.role-2TIOKu {
+    transform: translate(0);
+    overflow: hidden;
+    border: 0;
+
+    --transparency: .4;
+    border-radius: 5px;
+}
+.role-2TIOKu .roleRemoveIcon-387wKV {
+    margin: 0;
+    left: unset;
+    transform: translate(50%,-50%);
+}
+.role-2TIOKu .roleRemoveButton-17oXnT {
+    position: static;
+}
+.role-2TIOKu .roleCircle-3TFUOr:after {
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    opacity: var(--transparency);
+}
+
+/* Better Disconect */
+.container-2RRFHK {
+    background: transparent;
+    pointer-events: none;
+}
+.container-2RRFHK .anchor-1MIwyf { pointer-events: auto; }
+.container-2RRFHK .content-3AIQZv .text-2bYgPB {
+    display:none;
+}
+.container-2RRFHK .ready-3BZNWT {
+    position: absolute;
+    bottom: 44px;
+    right: 244px;
+    z-index: 1;
+}
+
+.container-2RRFHK img, .container-2RRFHK video {
+    width: 32px;
+    height: 32px;
+}
+.container-2RRFHK .problems-CvGwpb {
+    padding: 8px 16px;
+    bottom: 18px;
+    left: unset;
+    right: 18px;
+    width:fit-content;
+    height:fit-content;
+    background-color: var(--background-floating);
+    border-radius: 8px;
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-medium);
+    box-shadow: var(--elevation-stroke), var(--elevation-medium);
+}
+
+/* Removes the public badge */
+.communityInfoContainer-1dMVpU {
+    display: none;
+}
+
+.container-1NXEtd .content-2a4AW9 > div[style="height: 16px;"]:nth-child(2){
+    display: none;
+}
+
+/* Better Muted channel */
+.modeMuted-2T4MDZ .icon-2W8DHg path{ display: none; }
+.modeMuted-2T4MDZ .iconContainer-21RCa3{ position: relative; }
+.modeMuted-2T4MDZ .iconContainer-21RCa3:before{
+    content: '🔇';
+    position: absolute;
+    font-size: 20px; 
+}
+
+/* Hide Plugin Libs */
+div#BDFDB-card, div#ZeresPluginLibrary-card {display: none;}
+
+/* Server Rings */
+/* Includes variables */
+:root {
+    --server-unread-colour: 255, 255, 255;
+    --server-hover-colour: 255, 255, 255;
+    --server-selected-colour: var(--accent, 0, 231, 169);
+    --server-spacing: 16px;
+    --server-glow-intensity: 1;
+  }
+
+/* edited text */
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+    content: " (" attr(aria-label) ")";
+    color: var(--text-muted);
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: lowercase;
+}
+
+.edited-1v5nT8:not(.message-translate-indicator) {
+display: none;
+}
+
+/* Remove Ugly Nitro Area Promo stuff */
+.privateChannels-oVe7HL [href="/store"] + svg,
+.item-3XjbnG [class*="Promo"],
+.premiumLabel-3HPvdB svg,
+.premiumLabel-3HPvdB .badgeIconSettingsMenu-39c26C {
+    display: none;
+}
+
+.premiumLabel-3HPvdB {
+    color: var(--color-muted);
+}
+
+/* Re-round Spotify Status Images */
+.assetsLargeImageSpotify-17ME3M{border-radius:8px;}
+
+/* offline tags in member list */
+.offline-22aM7E .wrapper-1VLyxH > svg > foreignObject{mask:url(#svg-mask-avatar-status-round-32);}
+.offline-22aM7E .wrapper-1VLyxH > svg > foreignObject::before {
+content: "";
+width: 10px;
+height: 10px;
+background-color: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%);;
+display: block;
+right: 0px;
+bottom: 0px;
+position: absolute;
+border-radius: 50%;
+}
+.offline-22aM7E .wrapper-1VLyxH > svg > foreignObject::after{
+content: "";
+width: 6px;
+height: 6px;
+background-color: var(--background-secondary-alt);
+display: block;
+right: 2px;
+bottom: 2px;
+position: absolute;
+border-radius: 50%;
+z-index: 999!important;
+}
+.offline-22aM7E{opacity: 1;}
+
+/* Username Background
+.headerText-2z4IhQ > span::before {
+    content: ''; 
+    width: calc(100% + 7px); 
+    height: 100%;
+    border-radius: 5px;
+    background-color: #156083; 
+    opacity: 0.3; 
+    position: absolute; 
+    margin-top: 0px; 
+    z-index: -1;
+    margin-left: -3px;
+  }
+  .headerText-2z4IhQ > span {
+    margin-left: 3px;
+  } */
+
+  /* Better Jump To Present Button */
+[class*="jumpToPresentBar"] {
+    display: contents;
+}
+[class*="jumpToPresentBar"] > button:first-child {
+    display: none;
+}
+[class*="jumpToPresentBar"] > button:last-child {
+    position: absolute;
+    z-index: 1;
+    bottom: 24px;
+    right: 22px;
+    padding: 8px !important;
+    height: auto;
+    background-color: #5865F2;
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    font-size: 0px;
+    color: transparent;
+    transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+[class*="jumpToPresentBar"] > button svg {
+    order: -1;
+    margin: 0px;
+    height: 24px;
+    width: 24px;
+    top: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #FFFFFF;
+    transition: margin .6s;
+}
+[class*="jumpToPresentBar"]:hover > button {
+    padding: 8px 18px !important;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: font-size .2s, color .2s .1s, padding .4s;
+}
+[class*="jumpToPresentBar"]:hover > button svg {
+    margin-right: 2px;
+    margin-left: -6px;
+}
+
+/* Boosted Favorites */
+
+:root {
+    --favorites-name: 'My Favorites';
+    --favorites-guild-icon: url(//i.imgur.com/OFCbYk0.png);
+    --favorites-banner: url(https://i.imgur.com/jtcxsU6.png);
+
+    /* category icons */
+    /* Duplicate each group for additional categories (Up to 10), then replace both numbers. */
+    --category-1: '';
+    --c1: url(https://i.imgur.com/Xwm8bJA.png);
+    
+    --category-2: '';
+    --c2: url(https://i.imgur.com/F3zPKAX.png);
+}
