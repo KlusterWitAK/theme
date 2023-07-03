@@ -1,0 +1,253 @@
+/**
+ * @name Cyberpunk-lucy
+ * @author Gibbu#1211
+ * @version 1.0.0
+ * @description A soft and comfy feel for Discord.
+ * @invite ZHthyCw
+ * @authorId 174868361040232448
+ * @source https://github.com/DiscordStyles/SoftX
+ * @BDEditor SoftX
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/SoftX/SoftX.css');
+@import url('https://discordstyles.github.io/SoftX/RadialGlow.css');
+@import url('https://discordstyles.github.io/SoftX/VerticalUserArea.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+
+@import url("https://joshuah345.github.io/Discord-Stuff/Themes/CustomStatusColors/CustomStatusColors.css");
+@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
+@import url(https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/DiscordLinks.css");
+
+
+@import url("https://joshuah345.github.io/Discord-Stuff/Themes/CustomStatusColors/CustomStatusColors.css");
+
+@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/boostedFavorites.css);
+
+@import url(https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css);
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+
+:root {
+  --background-image: url('https://i.imgur.com/iAc34wk.jpg'); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-blur: 0px; /* Blur intensity of --background-image */
+  --opacity: 0.85; /* Opacity of overall app. | Default: .85 */
+  --accent: 136,70,255; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
+  --glow-intensity: 2; /* Intensity of the glow used around the app. | Set to 0 to disable the glow. | Decimals allowed | Default: 1 */
+  --font: Raleway; /* Custom font | Default: 'Inter' */
+  --channels-width: 318px; /* Width of the channels list. | Default: 300px */
+  --guilds-width: 81px; /* Width of the server list. | Default: 105px */
+  --members-width: 280px; /* Width of the members list. | Default: 280px */
+  --server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
+  --chat-avatar-size: 32px; /* Size of the chat avatars. | Default: 32px */
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 2px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 2px; /* Gap between avatar and status for User profiles | MUST end in px */
+  --rs-small-width: 2px; /* Ring width | Default: 1.5px */
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+}
+
+/* Any custom CSS below here */
+
+
+
+/* Dm custom logo */
+.homeIcon-r0w4ny path {
+    fill: transparent;
+}
+.homeIcon-r0w4ny {
+    background: url("https://cdn.discordapp.com/attachments/999156989038964770/1089456161717235823/VariableIckyIndochinesetiger.gif");
+    background-size: cover;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+
+
+
+.wordmarkWindows-2dq6rw svg {
+    display:none;
+}
+.wordmarkWindows-2dq6rw::after {
+    content: 'Puffecets Whore House';
+    font-family: 'Ginto Nord';
+    font-size: 10.10px;
+    font-weight: 700;
+    top:4px;
+    left: 3px;
+    position: relative;
+}
+
+/* Boosted Favorites */
+
+:root {
+    --favorites-name: 'My Favorites';
+    --favorites-guild-icon: url(https://cdn.discordapp.com/attachments/999156989038964770/1123093342016778280/0002.gif);
+    --favorites-banner: url(https://cdn.discordapp.com/attachments/999156989038964770/1088979997349396480/Tsun_Tsun_maid_wa_ero_-_Imgur.gif);
+
+    /* category icons */
+    /* Duplicate each group for additional categories (Up to 10), then replace both numbers. */
+    --category-1: '';
+    --c1: url(https://i.imgur.com/Xwm8bJA.png);
+    
+    --category-2: '';
+    --c2: url(https://i.imgur.com/F3zPKAX.png);
+}
+
+
+
+
+
+/* Offline */
+.container-2RRFHK {
+    background: transparent;
+    pointer-events: none;
+}
+.container-2RRFHK .anchor-1MIwyf { pointer-events: auto; }
+.container-2RRFHK .content-3AIQZv .text-2bYgPB {
+    display:none;
+}
+.container-2RRFHK .ready-3BZNWT {
+    position: absolute;
+    bottom: 44px;
+    right: 244px;
+    z-index: 1;
+}
+
+.container-2RRFHK img, .container-2RRFHK video {
+    width: 32px;
+    height: 32px;
+}
+.container-2RRFHK .problems-CvGwpb {
+    padding: 8px 16px;
+    bottom: 18px;
+    left: unset;
+    right: 18px;
+    width:fit-content;
+    height:fit-content;
+    background-color: var(--background-floating);
+    border-radius: 8px;
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-medium);
+    box-shadow: var(--elevation-stroke), var(--elevation-medium);
+}
+
+
+
+/* Muted channel icons */
+.modeMuted-2T4MDZ .icon-2W8DHg path{ display: none; }
+.modeMuted-2T4MDZ .iconContainer-21RCa3{ position: relative; }
+.modeMuted-2T4MDZ .iconContainer-21RCa3:before{
+    content: '🔇';
+    position: absolute;
+    font-size: 20px; 
+}
+
+
+/* hides libary plugins */
+div#BDFDB-card, div#ZeresPluginLibrary-card {display: none;}
+
+
+
+
+/* Server Rings */
+
+/* Includes variables */
+:root {
+  --server-unread-colour: 255, 255, 255;
+  --server-hover-colour: 255, 255, 255;
+  --server-selected-colour: var(--accent, 0, 231, 169);
+  --server-spacing: 16px;
+  --server-glow-intensity: 1;
+}
+
+
+
+
+
+
+
+/* Better Jump To Present Button */
+[class*="jumpToPresentBar"] {
+    display: contents;
+}
+[class*="jumpToPresentBar"] > button:first-child {
+    display: none;
+}
+[class*="jumpToPresentBar"] > button:last-child {
+    position: absolute;
+    z-index: 1;
+    bottom: 24px;
+    right: 22px;
+    padding: 8px !important;
+    height: auto;
+    background-color: #5865F2;
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    font-size: 0px;
+    color: transparent;
+    transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+[class*="jumpToPresentBar"] > button svg {
+    order: -1;
+    margin: 0px;
+    height: 24px;
+    width: 24px;
+    top: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #FFFFFF;
+    transition: margin .6s;
+}
+[class*="jumpToPresentBar"]:hover > button {
+    padding: 8px 18px !important;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: font-size .2s, color .2s .1s, padding .4s;
+}
+[class*="jumpToPresentBar"]:hover > button svg {
+    margin-right: 2px;
+    margin-left: -6px;
+}
+
+
+
+/* Colorful Folders */
+.closedFolderIconWrapper-3tRb2d {
+    display: none;
+}
+.folderIconWrapper-1oRIZr:not([style=""])::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: inherit;
+    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    transform: scale(1.3335);
+    filter: brightness(1.5) saturate(1.5);
+}
