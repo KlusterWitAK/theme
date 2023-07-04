@@ -75,7 +75,7 @@
     fill: transparent;
 }
 .homeIcon-r0w4ny {
-    background: url("https://cdn.discordapp.com/attachments/999156989038964770/1089456161717235823/VariableIckyIndochinesetiger.gif");
+    background: url("https://cdn.discordapp.com/attachments/999156989038964770/1125688393326678097/lucy_smokin_that_pak.gif");
     background-size: cover;
     min-width: 48px;
     min-height: 48px;
@@ -100,9 +100,9 @@
 /* Boosted Favorites */
 
 :root {
-    --favorites-name: 'My Favorites';
-    --favorites-guild-icon: url(https://cdn.discordapp.com/attachments/999156989038964770/1123093342016778280/0002.gif);
-    --favorites-banner: url(https://cdn.discordapp.com/attachments/999156989038964770/1088979997349396480/Tsun_Tsun_maid_wa_ero_-_Imgur.gif);
+    --favorites-name: 'Favorite Things';
+    --favorites-guild-icon: url(https://media.discordapp.net/attachments/999156989038964770/1125687681133854721/my-dress-up-darling-anime-love.gif);
+    --favorites-banner: url(https://cdn.discordapp.com/attachments/999156989038964770/1125687680806695003/music-anime.gif);
 
     /* category icons */
     /* Duplicate each group for additional categories (Up to 10), then replace both numbers. */
